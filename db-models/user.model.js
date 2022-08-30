@@ -20,6 +20,7 @@ const userSchema = new mongoose.Schema(
       minLength: 8,
       required: true,
     },
+    dateOfBirth: Date,
     socialMedia: {
       github: String,
       linkedin: String,
